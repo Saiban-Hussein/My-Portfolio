@@ -100,3 +100,136 @@ hr{
   border-top: none;
   margin: 100px auto;
 }
+
+.btn {
+  background: #30e3ca;
+  background-image: none;
+  background-image: -moz-linear-gradient(top, #30e3ca, #11999e);
+  background-image: linear-gradient(to bottom, #30e3ca, #11999e);
+  text-shadow: 1px 1px 3px #666666;
+  font-family: 'DM Mono', monospace;
+  color: #40514e;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -moz-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .575rem 1.5rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  border-radius: .25rem; 
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+margin:20px; 
+}
+
+.btn:hover {
+background: #30e3cb;
+background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+text-decoration: none;
+}
+
+.btn:active
+{
+border: 5px solid #e4f9f6;
+}
+
+.product {
+display: flex;
+width: 100%;
+margin: 1% auto;
+}
+.product h1 {
+font-size:2.5rem;
+margin-top: -11rem;
+text-align: left;
+margin-left: -244px;
+}
+
+.product-slideshow {
+display: flex; 
+border-right: 5px solid black; 
+margin-top: -0.5%;
+}
+.product-slideshow h1{
+font-size: 4rem;
+margin-top: -1rem;
+margin-left:-15px;
+}
+
+.product-details {
+flex: 0 0 72.8%;
+text-align: center;  
+margin-top: 10rem;
+margin-left:auto;
+margin-left: 20%;
+padding-left:4rem;
+text-align: left;
+box-sizing: border-box;
+
+}
+.product-details h1 {
+font-family:Arial;
+color: #2b2e4a;
+}
+
+footer{
+background-color:#66BFBF;
+padding: 2px;
+}
+footer p{
+margin-top: 40px;
+color: #EAF6F6;
+font-size: .895rem;
+}
+.work-contianer{
+display: flex;
+text-align: center;
+margin: 0 auto;
+flex-wrap: wrap;
+
+}
+.work-item{
+border: 1px solid black;
+height: 25rem;
+width: 32.2rem;
+margin: 24px;
+flex-wrap: wrap;
+flex-grow:1;  
+background-image:url(.PNG);
+background:linear-gradient(to top, rgba(10, 20, 18, 0.55) 23%, transparent),url(mountain.png) center/cover;
+
+}
+.one{
+width: 58%;
+flex-grow: 1;
+background:url("mountain.png");
+
+}
+
+@media screen and (max-width: 768px) {
+main,
+nav ul,
+work-contianer{ 
+  flex-direction: column;
+}
+nav ul li{
+  margin: 4% 0;
+} 
+}
+.work-title{
+height: 12rem;
+width: 12rem;
+background-color: red;
+position:relative;
+top:19%;
+background-image:url("duhok_map.png");
+}
