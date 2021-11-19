@@ -216,11 +216,33 @@ background:linear-gradient(to top, rgba(10, 20, 18, 0.55) 23%, transparent),url(
 
 }
 .one{
-width: 58%;
+width: 85%;
 flex-grow: 1;
 background:linear-gradient(to top, rgba(10, 20, 18, 0.55) 23%, transparent),url("../images/Horiseon.png")top 10% left 20%/cover; 
 }
+.two{
+  width: 31%;
+  flex-grow: 1;
+  background:linear-gradient(to top, rgba(10, 20, 18, 0.55) 23%, transparent),url("../images/online.jpg")top 10% left 20%/cover;  
+}
 
+.three{
+    width: 31%;
+    flex-grow: 1;
+    background:linear-gradient(to top, rgba(10, 20, 18, 0.55) 23%, transparent),url("../images/FitnessTracker.jpg")top 10% left 20%/cover;  
+}
+
+.four{
+  width: 31%;
+  flex-grow: 1;
+  background:linear-gradient(to top, rgba(10, 20, 18, 0.55) 23%, transparent),url("../images/WeatherDashboard.jpg")top 10% left 20%/cover;  
+}
+
+.five{
+  width: 31%;
+  flex-grow: 1;
+  background:linear-gradient(to top, rgba(10, 20, 18, 0.55) 23%, transparent),url("../images/Code-Quiz.jpg")top 10% left 20%/cover;  
+}
 
 .work-title{
 height: 12rem;
